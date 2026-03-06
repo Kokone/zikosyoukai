@@ -1,1 +1,103 @@
 藤崎心寧
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kokone Fujisaki | Profile</title>
+    <style>
+        /* 全体のスタイル設定 */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            background-color: #f9f7f2; /* 柔らかいベージュ */
+            color: #4a4a4a;
+            line-height: 1.8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* カードデザイン */
+        .container {
+            background: #ffffff;
+            padding: 60px 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+        }
+
+        /* 名前部分 */
+        h1 {
+            font-weight: 300;
+            letter-spacing: 0.1em;
+            margin-bottom: 5px;
+            color: #2d2d2d;
+        }
+
+        .en-name {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            color: #b5a191; /* くすみカラー */
+            margin-bottom: 30px;
+            letter-spacing: 0.2em;
+        }
+
+        /* 装飾ライン */
+        .line {
+            width: 30px;
+            height: 1px;
+            background: #b5a191;
+            margin: 0 auto 30px;
+        }
+
+        /* 自己紹介文 */
+        p {
+            font-size: 0.95rem;
+            margin-bottom: 40px;
+            text-align: justify;
+            text-justify: inter-character;
+        }
+
+        /* SNS・リンクボタン */
+        .links a {
+            text-decoration: none;
+            color: #4a4a4a;
+            border: 1px solid #4a4a4a;
+            padding: 10px 25px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            transition: all 0.3s ease;
+        }
+
+        .links a:hover {
+            background: #4a4a4a;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>藤崎 心寧</h1>
+        <div class="en-name">Kokone Fujisaki</div>
+        
+        <div class="line"></div>
+
+        <p>
+            穏やかな時間と、心地よい空間を大切にしています。<br>
+            日々の何気ない瞬間を言葉にしたり、お気に入りのカフェで過ごしたりすることが好きです。<br>
+            自分らしく、丁寧な毎日を積み重ねていきたいと思っています。
+        </p>
+
+        <div class="links">
+            <a href="#">Instagram</a>
+            </div>
+    </div>
+
+</body>
+</html>
